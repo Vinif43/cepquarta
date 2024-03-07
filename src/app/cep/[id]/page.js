@@ -13,7 +13,6 @@ export default function Page({ params }) {
       .then((data) => setData(data))
       .catch((error) => {
         console.error('Erro na requisição:', error)
-        // Lidar com o erro, por exemplo, exibindo uma mensagem para o usuário
         setData({ error: 'CEP não válido' })
       })
   }, [cep])
