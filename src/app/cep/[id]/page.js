@@ -34,7 +34,7 @@ export default function Page({ params }) {
   }
 
   return (
-    <main className="flex flex-col justify-center items-center h-screen bg-[#1f2937] text-white font-bold ">
+    <main className="flex flex-col justify-center items-center h-screen bg-light-primary text-white font-bold ">
       <div className="flex flex-col py-10">
         <h1 className="text-2xl font-bold">CEP: {data.cep}</h1>
         <p>Logradouro: {data.logradouro}</p>
